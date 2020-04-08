@@ -1,0 +1,121 @@
+/* Start Social Media Section */
+
+.social-media {
+    background-color:#eee;
+    padding:10px;
+    .social-info {
+        text-align: left;
+        ul {
+            padding:0;
+            display: inline-block;
+            li {
+                display: inline-block;
+                a {
+                    color: #CCC;
+                    font-size: 20px;
+                    margin: 10px;
+                    transition:all .5s ease-in-out;
+                    img {
+                        margin-top: -5px;
+                    }
+                }
+                .fa-facebook {
+                    color:#3b5998
+                }
+                .fa-twitter {
+                    color:#1da1f2
+                }
+                .fa-youtube {
+                    color:#f00;
+                }
+                .fa-instagram {
+                    color:#c13584
+                }
+            }
+        }
+    }
+    .info {
+        text-align: right;
+        .langs {
+            display: inline-block;
+            padding-right: 10px;
+            a {
+                display: inline-block;
+                margin:5px;
+                color:#000;
+                font-size:20px;
+            }
+            .fa-cart-plus {
+              font-size: 30px;
+              position: relative;
+              span {
+                position: absolute;
+                top: -6px;
+                right: -9px;
+                background-color: $main-color;
+                color: #fff;
+                padding: 2px 5px;
+                border-radius: 5px;
+                font-size: 16px;
+              }
+            }
+            .selected {
+                color:$main-color;
+            }
+        }
+    }
+}
+
+/* End Social Media Section */
+
+/* Start navbar section */
+
+.navbar {
+    background:transparent;
+    border:none;
+    border-radius:0;
+    padding-top:10px;
+    .navbar-header {
+        .navbar-toggle {
+            margin-top:20px;
+        }
+        .navbar-brand  {
+              height: auto;
+              padding: 0;
+              padding-left: 35px;
+              padding-top: 10px;
+              font-size: 35px;
+              color:$main-color;
+            img {
+                display: inline-block;
+                width: 60px;
+                margin: 0 auto 10px;
+                border-radius: 10px;
+                @media #{$mobile_screen} {
+                    margin-left:10px;
+                    width:70px;
+                }
+            }
+            span {
+                display: inline-block;
+                font-size:16px;
+            }
+        }
+            }
+    .navbar-collapse {
+        .navbar-nav {
+            padding-top: 5px;
+            padding-right:20px;
+            li {
+                a {
+                    color:#fff;
+                    font-size: 20px;
+                    &:hover, &:focus {
+                        color:$main-color;
+                    }
+                }
+            }
+        }
+    }
+}
+/* end navbar section */

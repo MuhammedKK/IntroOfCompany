@@ -1,0 +1,14 @@
+.hire-up {
+  form {
+    input[type="submit"] {
+      float: left;
+    }
+    a {
+      float: right;
+      font-size: 23px;
+      &:hover {
+        text-decoration:underline;
+      }
+    }
+  }
+}
